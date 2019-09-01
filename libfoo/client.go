@@ -67,9 +67,10 @@ func (c *clientImpl) Method5(param1 int, param2 string) error {
 
 // Method6 - the implementation of `Method6` method defined in the `Client` interface
 //
-func (c *clientImpl) Method6() error {
+func (c *clientImpl) Method6(i int) error {
 
 	// Concrete implementation details are omitted
+	fmt.Printf("new param i=%d\n", i)
 
 	return nil
 }
