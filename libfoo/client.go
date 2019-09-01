@@ -50,7 +50,7 @@ func (c *clientImpl) Method4() error {
 
 	// Concrete implementation details are omitted
 
-	fmt.Printf("v1.1.0 change\n")
+	fmt.Printf("v1.1.1 change\n")
 	return nil
 }
 
