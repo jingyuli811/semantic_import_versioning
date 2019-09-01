@@ -74,3 +74,11 @@ func (c *clientImpl) Method6(i int) error {
 
 	return nil
 }
+
+func (c *clientImpl) Method7(i int, i2 int) error {
+
+	// Concrete implementation details are omitted
+	fmt.Printf("param i=%d, i2=%d\n", i, i2)
+
+	return nil
+}

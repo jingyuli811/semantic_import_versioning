@@ -9,4 +9,5 @@ type Client interface {
 	Method4() error
 	Method5(param1 int, param2 string) error
 	Method6(int) error
+	Method7(int, int) error
 }
