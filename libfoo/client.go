@@ -2,8 +2,6 @@ package libfoo
 
 import (
 	"fmt"
-
-	"rsc.io/quote"
 )
 
 // clientImpl - An implementation of Client interface
@@ -52,7 +50,7 @@ func (c *clientImpl) Method4() error {
 
 	// Concrete implementation details are omitted
 
-	fmt.Println("solution B: v2 " + quote.Hello())
+	fmt.Printf("v1.1.0 change\n")
 	return nil
 }
 
